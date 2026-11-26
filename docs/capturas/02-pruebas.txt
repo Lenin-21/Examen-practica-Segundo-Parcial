@@ -1,0 +1,19 @@
+[OK] P01 Carga y búsqueda por matrícula
+[OK] P02 Alta, edición, baja y consistencia
+[OK] P03 Crecimiento y eliminación en los extremos
+[OK] P04 Entradas de estudiantes inválidas
+[OK] P05 Cola FIFO de tres solicitudes
+[OK] P06 Dos operaciones deshechas en orden LIFO
+[OK] P07 Validación de solicitudes y de operaciones pendientes
+[OK] P08 Jerarquía y tres recorridos del ABB
+[OK] P09 Eliminación con dos hijos e integridad del ABB
+[OK] P10 Eliminación de la raíz con un hijo y del último nodo
+[OK] P11 Red del examen, BFS, DFS y desconexión
+[OK] P12 Ciclo y eliminación de aristas incidentes
+[OK] P13 Entradas de red inválidas
+[OK] P14 Recomendación de Diego y Elena
+[OK] P15 Exclusión, desempate y amistades inválidas
+[OK] P16 Baja y recuperación de un estudiante con amistades
+[OK] P17 Consultas en un sistema vacío
+
+Resultado: 17 de 17 pruebas aprobadas (0 fallidas).

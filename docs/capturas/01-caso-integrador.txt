@@ -1,0 +1,21 @@
+
+=== Caso integrador SIGAC-UTA ===
+Matrículas ingresadas  [50, 30, 70, 20, 40, 60, 80]
+ABB inorden inicial    [20, 30, 40, 50, 60, 70, 80]
+Búsqueda de 80          7 comparaciones en la lista, 3 en el ABB
+ABB tras eliminar 30   [20, 40, 50, 60, 70, 80]
+Atención FIFO          #1 (50) → #2 (70) → #3 (20)
+Primer deshacer LIFO   Actualización de matrícula 80
+Segundo deshacer LIFO  Eliminación de matrícula 30
+ABB tras deshacer      [20, 30, 40, 50, 60, 70, 80]
+
+Conexiones             [PC1 -> SW1 (peso 1), PC1 -> PC3 (peso 3), SW1 -> SRV1 (peso 2), SRV1 -> PC2 (peso 1)]
+BFS desde PC1          [PC1, SW1, PC3, SRV1, PC2]
+DFS desde PC1          [PC1, SW1, SRV1, PC2, PC3]
+No alcanzables         [PC4]
+Se elimina SW1 → SRV1
+BFS actualizado        [PC1, SW1, PC3]
+No alcanzables         [SRV1, PC2, PC4]
+
+Contactos para Ana     Diego (2), Elena (1)
+Los números indican la cantidad de amistades en común.
